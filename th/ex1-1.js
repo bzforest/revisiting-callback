@@ -6,7 +6,29 @@
 - ให้เขียน function ที่ทำงานตามที่โจทย์กำหนด
 */
 
-// Start Coding Here
+function calculate (num1 , num2 , callback) {
+    return callback(num1,num2);
+}
+
+function add (num1 , num2) {
+    return num1 + num2
+}
+
+function subtract (num1 , num2) {
+    return num1 - num2
+}
+
+function multiply (num1 , num2) {
+    return num1 * num2
+}
+
+function divide (num1 , num2) {
+    if (num2 === 0) {
+        return "Cannot divide by zero"
+    } else {
+        return num1/num2
+    }
+}
 
 
 // เมื่อ function นี้ทำงานจะเห็นผลลัพธ์ดังนี้
